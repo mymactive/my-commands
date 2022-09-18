@@ -1,0 +1,4 @@
+#!/bin/bash
+
+mkdir -p "$(dirname "$1")";
+code $1;
